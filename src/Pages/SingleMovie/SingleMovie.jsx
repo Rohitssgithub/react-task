@@ -78,7 +78,7 @@ const SingleMovie = () => {
                         cast.map((ele, index) => {
                             return (
                                 index <= 5 ?
-                                    <div className='col-lg-2 col-md-3 cast-div' key={ele.id}>
+                                    <div className='col-lg-2 col-sm-4 cast-div' key={ele.id}>
                                         <Cast ele={ele}></Cast>
                                     </div>
                                     :
